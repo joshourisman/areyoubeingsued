@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>How many fucks does Elon Musk give?</title>
+        <title>Are you being sued?</title>
         <script
           dangerouslySetInnerHTML={{
             __html: `(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -13,13 +13,13 @@ export default function Home() {
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-60956755-1', 'auto');
+    ga('create', 'UA-60956755-3', 'auto');
     ga('send', 'pageview');`,
           }}
         />
       </Head>
-      <h1 className={styles.zero}>ZERO</h1>
-      <h1 className={styles.fucks}>FUCKS</h1>
+      <h1 className={styles.zero}>NO*</h1>
+      <h1 className={styles.fucks}>* condition of being sued may vary, please check with your lawyer</h1>
     </div>
   );
 }
