@@ -19,7 +19,7 @@ export default function Home() {
         />
       </Head>
       <h1 className={styles.zero}>NO*</h1>
-      <h1 className={styles.fucks}>* condition of being sued may vary, please consult your lawyer</h1>
+      <h1 className={styles.fucks}>* condition of being sued may vary, please consult your attorney</h1>
     </div>
   );
 }
