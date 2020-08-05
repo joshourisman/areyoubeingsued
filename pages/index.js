@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>How many fucks does Elon Musk give?</title>
+        <title>Are you being sued?</title>
         <script
           dangerouslySetInnerHTML={{
             __html: `(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -18,8 +18,8 @@ export default function Home() {
           }}
         />
       </Head>
-      <h1 className={styles.zero}>ZERO</h1>
-      <h1 className={styles.fucks}>FUCKS</h1>
+      <h1 className={styles.zero}>NO*</h1>
+      <h1 className={styles.fucks}>* condition of being sued may vary, please check with your lawyer.</h1>
     </div>
   );
 }
