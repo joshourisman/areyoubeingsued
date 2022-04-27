@@ -6,7 +6,7 @@ export default function Home() {
       <Head>
         <title>Are you being sued?</title>
       </Head>
-      <svg viewBox="0 7 30 30">
+      <svg viewBox="0 7 30 14">
         <text x="0" y="20">NO*</text>
       </svg>
       <svg viewBox="0 23 427 15">
